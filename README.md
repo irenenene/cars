@@ -1,17 +1,14 @@
 # cars
 
-- [x] Option 1
-- [x] Option 2
-- [x] Option 3
-- [ ] Adding "Goodbye" if the user chooses to quit
+- [x] Add functionality 
+- [x] List functionality
+- [x] Quit functionality
+- [x] edit Readme file
 
-If you were to display a goodbye message, it would look like this:
+If you were to display add a welcome message, it would look like this:
 
 ```bash
-"Quit" | 3)
-	echo "Goodbye"
-	break
-	;;
+	echo "Hello world!"
 ```
 
 :alien:

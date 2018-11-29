@@ -23,12 +23,12 @@ do
 		echo "Model of car: "
 		read MODEL
 		echo "$YEAR:$MAKE:$MODEL" >> My_old_cars
-		#echo "$YEAR $MAKE $MODEL" >> My_old_cars
 		;;
 	"List" | 2)
-		sort -n My_old_cars
+		sort -n My_old_cars | tr ":" " "
 		;;
 	"Quit" | 3)
+		echo "Goodbye"
 		break
 		;;
 	*)
